@@ -25,17 +25,22 @@ namespace Client
             while (client_functionality) {
                 Console.WriteLine("Siusplau entra una frase per a revertir l'ordre: (En cas de voler sortir entra 'q' )");
                 string phrase_to_reverse = Console.ReadLine();
-                if (phrase_to_reverse == "q")
+                if (phrase_to_reverse != "q")
                 {
-                    client_functionality = false;
+                    byte[] send = Encoding.UTF8.GetBytes(phrase_to_reverse);
+                    ns.Write(send, 0, send.Length);
+
+                    byte[] receiveBuffer = new byte[1024];
+                    int bytesRead = ns.Read(receiveBuffer, 0, receiveBuffer.Length);
+                    string reversedPhrase = Encoding.UTF8.GetString(receiveBuffer, 0, bytesRead);
+
+                    Console.WriteLine($"Reversed Phrase: {reversedPhrase}\n");
+                  
                 }
                 else { 
-                    byte[] buffer = new byte[1024];
-                    int bytesRead = ns.Read(buffer, 0, buffer.Length);
-                    string serverMessage = Encoding.Unicode.GetString(buffer, 0, bytesRead);
-                    bytesRead = ns.Read(buffer, 0, buffer.Length);
-                    string reversed_phrase = Encoding.Unicode.GetString(buffer, 0, bytesRead);
-                    Console.WriteLine(reversed_phrase);
+                    ns.Close();
+                    client.Close();
+                    client_functionality = false;
                 }
             }
 

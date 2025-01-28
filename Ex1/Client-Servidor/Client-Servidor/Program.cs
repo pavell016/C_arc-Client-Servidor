@@ -13,6 +13,7 @@ namespace Server
         private static IPAddress ServerIP;
         private static int PortIP;
         private static IPEndPoint ServerEndPoint;
+        static readonly object locker = new object();
 
         static void Main(string[] args)
         {
@@ -24,36 +25,50 @@ namespace Server
 
             Server.Start();
             Console.WriteLine("Servidor iniciat");
-
-            TcpClient Client = Server.AcceptTcpClient();
-            Console.WriteLine("Client connectat");
-
-            //Rebem dades del client
-            NetworkStream ServerNS = Client.GetStream();
-            byte[] BufferLocal = new byte[1024];
-            int BytesRebuts = ServerNS.Read(BufferLocal, 0, BufferLocal.Length);
-
-            //Passem de bytes a string
-            string s = "";
-            s = Encoding.UTF8.GetString(BufferLocal, 0, BytesRebuts);
-
-            string reverseString = ReverseString(s);
-
-            //Passem de string a bytes
-            byte[] fraseBytes = Encoding.UTF8.GetBytes(reverseString);
-
-            //Enviem resposta al client
-            ServerNS.Write(fraseBytes, 0, fraseBytes.Length);
-
+            while (true) { 
+                TcpClient Client = Server.AcceptTcpClient();
+                Console.WriteLine("Client connectat");
+                Thread new_client = new Thread(() => connected_client(Client));
+                new_client.Start();
+            }
+            
             Console.WriteLine("Server finalitzat");
-
-            ServerNS.Close();
-            Client.Close();
-
             Server.Stop();
 
             Console.ReadLine();
         }
+        static void connected_client(TcpClient Client) {
+            //Rebem dades del client
+            NetworkStream ServerNS = Client.GetStream();
+            bool program = true;
+            while (program) { 
+                byte[] BufferLocal = new byte[1024];
+                int BytesRebuts = ServerNS.Read(BufferLocal, 0, BufferLocal.Length);
+
+                //Passem de bytes a string
+
+                string s = "";
+          
+                s = Encoding.UTF8.GetString(BufferLocal, 0, BytesRebuts);
+                if (s != "q")
+                {
+                    string reverseString = ReverseString(s);
+
+                    //Passem de string a bytes
+                    byte[] fraseBytes = Encoding.UTF8.GetBytes(reverseString);
+
+                    //Enviem resposta al client
+                    ServerNS.Write(fraseBytes, 0, fraseBytes.Length);
+                }
+                else { 
+                    program = false;
+                    ServerNS.Close();
+                    Client.Close();
+                }
+                
+            }
+        }
+
 
         static string ReverseString(string intString)
         {
