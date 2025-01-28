@@ -12,3 +12,4 @@ C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor
 C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client-Servidor\obj\Debug\net8.0\Client-Servidor.pdb
 C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client-Servidor\obj\Debug\net8.0\Client-Servidor.genruntimeconfig.cache
 C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client-Servidor\obj\Debug\net8.0\ref\Client-Servidor.dll
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client-Servidor\obj\Debug\net8.0\Client-Servidor.sourcelink.json

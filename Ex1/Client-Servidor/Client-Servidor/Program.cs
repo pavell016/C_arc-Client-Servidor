@@ -30,7 +30,7 @@ namespace Server
 
             //Rebem dades del client
             NetworkStream ServerNS = Client.GetStream();
-            byte[] BufferLocal = new byte[256];
+            byte[] BufferLocal = new byte[1024];
             int BytesRebuts = ServerNS.Read(BufferLocal, 0, BufferLocal.Length);
 
             //Passem de bytes a string

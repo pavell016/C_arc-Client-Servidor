@@ -1,0 +1,15 @@
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client\bin\Debug\net8.0\Client.exe
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client\bin\Debug\net8.0\Client.deps.json
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client\bin\Debug\net8.0\Client.runtimeconfig.json
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client\bin\Debug\net8.0\Client.dll
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client\bin\Debug\net8.0\Client.pdb
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client\obj\Debug\net8.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client\obj\Debug\net8.0\Client.AssemblyInfoInputs.cache
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client\obj\Debug\net8.0\Client.AssemblyInfo.cs
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client\obj\Debug\net8.0\Client.csproj.CoreCompileInputs.cache
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client\obj\Debug\net8.0\Client.sourcelink.json
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client\obj\Debug\net8.0\Client.dll
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client\obj\Debug\net8.0\refint\Client.dll
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client\obj\Debug\net8.0\Client.pdb
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client\obj\Debug\net8.0\Client.genruntimeconfig.cache
+C:\Users\programacion\Documents\GitHub\C_arc-Client-Servidor\Ex1\Client-Servidor\Client\obj\Debug\net8.0\ref\Client.dll
