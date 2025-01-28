@@ -37,7 +37,9 @@ namespace Client
                     Console.WriteLine($"Reversed Phrase: {reversedPhrase}\n");
                   
                 }
-                else { 
+                else {
+                    byte[] send = Encoding.UTF8.GetBytes(phrase_to_reverse);
+                    ns.Write(send, 0, send.Length);
                     ns.Close();
                     client.Close();
                     client_functionality = false;
