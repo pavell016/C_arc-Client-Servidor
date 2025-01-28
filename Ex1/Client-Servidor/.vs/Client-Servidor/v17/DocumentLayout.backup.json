@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\programacion\\Documents\\GitHub\\C_arc-Client-Servidor\\Ex1\\Client-Servidor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D25A95E1-E18F-4371-B509-9E27F9D578F4}|Client\\Client.csproj|c:\\users\\programacion\\documents\\github\\c_arc-client-servidor\\ex1\\client-servidor\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D25A95E1-E18F-4371-B509-9E27F9D578F4}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8A7EBD88-5FA4-4ABA-B2DA-D0EF2EBAA1F8}|Client-Servidor\\Client-Servidor.csproj|c:\\users\\programacion\\documents\\github\\c_arc-client-servidor\\ex1\\client-servidor\\client-servidor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A7EBD88-5FA4-4ABA-B2DA-D0EF2EBAA1F8}|Client-Servidor\\Client-Servidor.csproj|solutionrelative:client-servidor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFCCE44-8100-4FA8-9F55-4DB012DC6B55}|Client-generator\\Client-generator.csproj|c:\\users\\programacion\\documents\\github\\c_arc-client-servidor\\ex1\\client-servidor\\client-generator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFCCE44-8100-4FA8-9F55-4DB012DC6B55}|Client-generator\\Client-generator.csproj|solutionrelative:client-generator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\programacion\\Documents\\GitHub\\C_arc-Client-Servidor\\Ex1\\Client-Servidor\\Client-generator\\Program.cs",
+              "RelativeDocumentMoniker": "Client-generator\\Program.cs",
+              "ToolTip": "C:\\Users\\programacion\\Documents\\GitHub\\C_arc-Client-Servidor\\Ex1\\Client-Servidor\\Client-generator\\Program.cs",
+              "RelativeToolTip": "Client-generator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T17:56:04.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\programacion\\Documents\\GitHub\\C_arc-Client-Servidor\\Ex1\\Client-Servidor\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "Client\\Program.cs",
+              "ToolTip": "C:\\Users\\programacion\\Documents\\GitHub\\C_arc-Client-Servidor\\Ex1\\Client-Servidor\\Client\\Program.cs",
+              "RelativeToolTip": "Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T17:54:38.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\programacion\\Documents\\GitHub\\C_arc-Client-Servidor\\Ex1\\Client-Servidor\\Client-Servidor\\Program.cs",
               "RelativeDocumentMoniker": "Client-Servidor\\Program.cs",
               "ToolTip": "C:\\Users\\programacion\\Documents\\GitHub\\C_arc-Client-Servidor\\Ex1\\Client-Servidor\\Client-Servidor\\Program.cs",
               "RelativeToolTip": "Client-Servidor\\Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAowEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T17:49:22.548Z",
               "EditorCaption": ""
